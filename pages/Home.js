@@ -15,7 +15,7 @@ const images = [
     require('../imgs/shouye/banner/1.jpg'),
     require('../imgs/shouye/banner/2.jpg'),
     require('../imgs/shouye/banner/3.jpg'),
-];
+]
 
 const headerLeft = (
     <TitleBarItem
