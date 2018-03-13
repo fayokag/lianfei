@@ -10,6 +10,22 @@ import {
     Dimensions,
 } from 'react-native';
 var { height, width } = Dimensions.get('window');
+var arr = [
+    {
+        userName:'咸蛋包包',
+        admin:'管理员',
+        title:'周三福利君Vol.23:晒小米产品美图，赢千元全面屏手机',
+        time:16,
+        timeUnit:'秒'
+    },
+    {
+        userName:'发动机',
+        admin:'官方团队',
+        title:'摇不上号，买外地车牌，',
+        time:16,
+        timeUnit:'秒'
+    }
+]
 export default class All extends React.Component {
 
     constructor(props) {
