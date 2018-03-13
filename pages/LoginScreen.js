@@ -38,7 +38,6 @@ export default class LoginScreen extends Component {
 
     constructor(props) {
         super(props);
-        //TODO
         this.state = {
             username: '',
             password: '',
@@ -194,4 +193,4 @@ let styles = StyleSheet.create({
         borderRadius: gSizes.btnRadius,
         alignSelf:'center'
     }
-});
+})
